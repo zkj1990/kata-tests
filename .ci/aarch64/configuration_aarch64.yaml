@@ -18,10 +18,6 @@ test:
 # specific test specs or whole container of specs.
 docker:
   Describe:
-    - CPUs and CPU set  
-    - Update number of CPUs   
-    - Hot plug CPUs  
-    - Update CPU constraints
     - memory constraints
     - Hotplug memory when create containers
     - run container and update its memory constraints
