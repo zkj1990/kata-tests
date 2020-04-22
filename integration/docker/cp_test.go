@@ -63,7 +63,7 @@ var _ = Describe("[Serial Test] docker cp with volume attached", func() {
 	)
 
 	BeforeEach(func() {
-		hostPath = "/dev"
+		hostPath = "/opt"
 		id = randomDockerName()
 	})
 
@@ -113,7 +113,7 @@ var _ = Describe("[Serial Test] docker cp with volume", func() {
 	)
 
 	BeforeEach(func() {
-		hostPath = "/dev"
+		hostPath = "/opt"
 		id = randomDockerName()
 	})
 
